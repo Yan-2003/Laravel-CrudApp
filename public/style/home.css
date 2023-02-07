@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+
+.title{
+    font-weight: 100;
+    font-size: 34px;
+    margin: 0 auto;
+}
+
+.button{
+    padding: 10px;
+    background-color:  rgb(255, 139, 139);
+    border-radius: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+
+.input--style{
+    width: 20%;
+    border: none;
+    outline: none;
+    padding: 20px 0;
+    border-bottom: 1px rgb(176, 176, 176) solid;
+}
+
+.main--form{
+    height: 100vh;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.submit--button{
+    text-align: center;
+    width: 20%;
+    margin: 0.5rem auto;
+    padding: 10px 0;
+    background-color: rgb(255, 139, 139);
+    outline: none;
+    padding: none;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.submit--button:hover{
+    background-color: rgb(190, 98, 98);
+    transition: 280ms ease-out;
+}
+
+.button:hover{
+    background-color: rgb(190, 98, 98);
+    transition: 280ms ease-out;
+}
+
+.container{
+    margin: 10rem auto;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user{
+    text-decoration: none;
+    color: black;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.user--content{
+    text-decoration: none;
+    color: black;
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px rgba(176, 176, 176, 0.573) solid;
+    background-color: rgb(234, 234, 234);
+}
+
+.buttons{
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
+}
+
+.btn{
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: rgb(145, 145, 255);
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgb(114, 114, 167);
+    transition: 280ms;
+}
+
+
